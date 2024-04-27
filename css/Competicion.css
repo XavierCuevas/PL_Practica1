@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url(../img/Fondo-Gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Encabezado*/
+#encabezado {
+    width: 1000px;
+    height: 140px;    
+    border-radius: 20px 20px 0 0;
+    margin: auto;
+    margin-top: 10px;
+     background-color: #37003C;
+}
+#logo {
+    animation: 1s Animacion  1;
+}
+#logo img {
+    width: 113px;
+    height: 109px;
+    margin-top: 18px;
+    margin-left: 11px;
+
+}
+#logo h1 {
+    font-size: 38x;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin-top: -67px;
+    margin-right: 550px;
+    
+}
+
+#logo #derecha-h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    margin-right: 200px;
+    float: right;
+
+    
+}
+
+/*Menu Horizontal*/
+#menu-horizontal {
+    background-color: #963cff;
+    width: 1000px;
+    height: 70px;
+   margin: auto;
+}
+
+#menu-horizontal ul {
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    
+}
+
+#menu-horizontal a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+
+}
+
+#menu-horizontal ul ul {
+    display: none;
+    position: absolute;
+    background-color: #963cff;
+    color: white;
+}
+
+#menu-horizontal ul li:hover ul {
+    display: block;
+    
+}
+
+#menu-horizontal a:hover {
+background-color: #37003C;
+}
+
+/*Banner*/
+#banner {
+    width: 1000px;
+    height: 500px;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+#banner img {
+    width: 1000px;
+    height: 500px;
+}
+
+#contenedor {
+    max-width: 1000px;
+    min-height: 700px;
+    background-color: aliceblue;
+    margin:  0 auto;
+}
+
+/*Menu Vertical*/
+#menuVertical {
+    background-color: #37003C;
+    width: 300px ;
+    min-height: 700px;
+    float: left;
+}
+
+#menuVertical img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+#menuVertical ul {
+    list-style: none;
+    padding: 10px;
+}
+
+#menuVertical a:hover img {
+    animation: 0.8s Rotacion 1;
+}
+
+#menuVertical a {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   
+
+}
+
+#menuVertical a:hover {
+    background-color: aqua;
+}
+
+/*Contenido principal*/
+#contenido {
+    width: 700px;
+    min-height: 700px;
+    background-color: aqua;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+#contenido h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+
+.izquierda-team {
+    height: 105px;
+    width: 145px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 22px;
+    margin-bottom: 28px;
+  
+}
+
+.izquierda-team img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 2px;
+
+
+}
+
+.izquierda-team p {
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 2px;
+    margin-left: 6px;
+    margin-top: 3px;
+    
+}
+#columna2 {
+    display: flex;
+}
+
+#contenido p {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.imagen_Premier {
+    float: left;
+    height: 275px;
+    width: 350px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#contenido #tabla {
+    width: 670px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#Imagen_Sobre_Nosotros {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+   
+}
+
+footer {
+max-width: 1000px;
+min-height: 130px;
+background-color: #963cff;
+margin: 0 auto;
+border-radius: 0 0 20px 20px;
+
+}
+
+footer p { 
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*KeyFrames*/
+@keyframes Animacion {
+    0% {
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes Rotacion { 
+    0% {
+        transform: rotate(360deg);
+    }
+}
